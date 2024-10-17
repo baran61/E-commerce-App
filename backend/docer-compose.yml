@@ -1,0 +1,29 @@
+version: '3'
+services:
+
+  mp-redis:
+    container_name: mp-redis
+    image: redis:7
+    ports:
+      - "6379:6379"
+    restart: always
+    networks:
+      - test-network
+
+  mp-mongodb:
+    container_name: mp-mongodb
+    image: mongo:6
+    restart: always
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+    command: mongod --logpath=/dev/null # --quiet
+    networks:
+      - test-network
+
+volumes:
+  mongo-data:
+
+networks:
+  test-network:
