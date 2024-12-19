@@ -20,3 +20,5 @@
 
 
 # E-commerce-App
+
+![E-commerce App](/public/1.png)
