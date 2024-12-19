@@ -22,3 +22,7 @@
 # E-commerce-App
 
 ![E-commerce App](client/public/1.png)
+![E-commerce App](client/public/2.png)
+![E-commerce App](client/public/3.png)
+![E-commerce App](client/public/4.png)
+
