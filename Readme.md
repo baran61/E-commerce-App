@@ -21,4 +21,4 @@
 
 # E-commerce-App
 
-![E-commerce App](/public/1.png)
+![E-commerce App](client/public/1.png)
